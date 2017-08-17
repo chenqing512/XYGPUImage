@@ -17,6 +17,8 @@
 		16118D871F452EB300591E3D /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16118D861F452EB300591E3D /* logo@2x.png */; };
 		16118D8D1F45312000591E3D /* XYFilterImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 16118D8C1F45312000591E3D /* XYFilterImage.m */; };
 		167F37AC1F455E2700DD6FEA /* GPUImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 167F37AB1F455E2700DD6FEA /* GPUImageViewController.m */; };
+		167F37AF1F45706800DD6FEA /* SkinImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 167F37AE1F45706800DD6FEA /* SkinImageViewController.m */; };
+		167F37B21F4570A200DD6FEA /* XYSkinImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 167F37B11F4570A200DD6FEA /* XYSkinImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -210,6 +212,10 @@
 		16118D8C1F45312000591E3D /* XYFilterImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYFilterImage.m; sourceTree = "<group>"; };
 		167F37AA1F455E2700DD6FEA /* GPUImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageViewController.h; sourceTree = "<group>"; };
 		167F37AB1F455E2700DD6FEA /* GPUImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageViewController.m; sourceTree = "<group>"; };
+		167F37AD1F45706800DD6FEA /* SkinImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkinImageViewController.h; sourceTree = "<group>"; };
+		167F37AE1F45706800DD6FEA /* SkinImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkinImageViewController.m; sourceTree = "<group>"; };
+		167F37B01F4570A200DD6FEA /* XYSkinImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYSkinImage.h; sourceTree = "<group>"; };
+		167F37B11F4570A200DD6FEA /* XYSkinImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYSkinImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +255,10 @@
 				16118CC21F4425D800591E3D /* ViewController.m */,
 				167F37AA1F455E2700DD6FEA /* GPUImageViewController.h */,
 				167F37AB1F455E2700DD6FEA /* GPUImageViewController.m */,
+				167F37AD1F45706800DD6FEA /* SkinImageViewController.h */,
+				167F37AE1F45706800DD6FEA /* SkinImageViewController.m */,
+				167F37B01F4570A200DD6FEA /* XYSkinImage.h */,
+				167F37B11F4570A200DD6FEA /* XYSkinImage.m */,
 				16118D8B1F45312000591E3D /* XYFilterImage.h */,
 				16118D8C1F45312000591E3D /* XYFilterImage.m */,
 				16118D851F452EB300591E3D /* Images */,
@@ -552,6 +562,8 @@
 				16118CC31F4425D800591E3D /* ViewController.m in Sources */,
 				16118CC01F4425D800591E3D /* AppDelegate.m in Sources */,
 				167F37AC1F455E2700DD6FEA /* GPUImageViewController.m in Sources */,
+				167F37B21F4570A200DD6FEA /* XYSkinImage.m in Sources */,
+				167F37AF1F45706800DD6FEA /* SkinImageViewController.m in Sources */,
 				16118CBD1F4425D800591E3D /* main.m in Sources */,
 				16118D8D1F45312000591E3D /* XYFilterImage.m in Sources */,
 			);

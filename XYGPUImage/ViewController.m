@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "GPUImageViewController.h"
+#import "SkinImageViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>{
     UITableView *mTableView;
@@ -26,7 +27,8 @@
     mTableView.delegate=self;
     mTableView.dataSource=self;
     [self.view addSubview:mTableView];
-    mDataArray=[[NSMutableArray alloc]initWithObjects:@[@"素描",@"GPUImageViewController"], nil];
+    mDataArray=[[NSMutableArray alloc]initWithObjects:@[@"添加滤镜",@"GPUImageViewController"],
+                @[@"图片美白",@"SkinImageViewController"], nil];
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
